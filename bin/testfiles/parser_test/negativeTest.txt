@@ -1,0 +1,9 @@
+VAR f;
+PROCEDURE bar(f);
+   WRITELN(f);
+
+BEGIN
+	f := 2;
+    ignore := bar(-f);
+END;
+.
